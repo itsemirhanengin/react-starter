@@ -1,0 +1,73 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "react/function-component-definition": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "react/require-default-props": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "prefer-regex-literals": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-filename-extension": "off",
+    "import/no-cycle": "off",
+    "react/state-in-constructor": "off",
+    "no-param-reassign": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "import/no-unresolved": "off",
+    "max-classes-per-file": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "react/no-did-update-set-state": "off",
+    "react/no-access-state-in-setstate": "off",
+    "react/jsx-no-bind": "off",
+    "react/no-array-index-key": "off",
+    "react/sort-comp": "off",
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "array-callback-return": "off",
+    "no-nested-ternary": "off",
+    "react/no-children-prop": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/no-unescaped-entities": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "react/button-has-type": "off",
+    "radix": "off",
+    "no-alert": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "no-return-assign": "off",
+    "no-plusplus": "off",
+    "no-prototype-builtins": "off",
+    "no-case-declarations": "off",
+    "no-inner-declarations": "off",
+    "prefer-rest-params": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-continue": "off",
+    "jsx-a11y/mouse-events-have-key-events": "off",
+    "no-empty": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "func-names": "off",
+    "no-console": "off"
+  }
+}
