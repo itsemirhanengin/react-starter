@@ -69,5 +69,15 @@
     "@typescript-eslint/naming-convention": "off",
     "func-names": "off",
     "no-console": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.stories.*"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ]
 }
