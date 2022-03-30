@@ -1,15 +1,29 @@
 import React from 'react'
 import { Provider } from 'jotai'
+import { Routes, Route, Link } from 'react-router-dom'
+
+const Home = () => (
+  <div>
+    <h1>Home</h1>
+    <Link to="/about">About</Link>
+  </div>
+)
+
+const About = () => (
+  <div>
+    <h1>About</h1>
+    <Link to="/">Home</Link>
+  </div>
+)
 
 const App: React.FC = () => {
   return (
     <Provider>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-        facere perspiciatis repellat dolorem nemo, fuga, repudiandae beatae
-        saepe recusandae tempora, nihil dignissimos dolor inventore sint
-        perferendis explicabo! Rerum, unde voluptas!
-      </p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route path="/about" element={<About />} />
+      </Routes>
     </Provider>
   )
 }
