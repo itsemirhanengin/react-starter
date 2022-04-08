@@ -1,8 +1,8 @@
-# React Starter
+# React starter kit
 
 ## 📖 <span style="margin-right: 10px"></span>  About
 
-A React Starter kit that focuses on simlicity.
+A React starter kit that focuses on simlicity.
 
 <br />
 
