@@ -2,6 +2,8 @@ import React from 'react'
 import { Provider } from 'jotai'
 import { Routes, Route, Link } from 'react-router-dom'
 
+import './lib/styles/app.scss'
+
 const Home = () => (
   <div>
     <h1>Home</h1>
