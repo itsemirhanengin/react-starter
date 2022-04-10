@@ -2,7 +2,7 @@
 
 ## 📖 <span style="margin-right: 10px"></span>  About
 
-A React starter kit that focuses on simlicity.
+A React starter kit that focuses on simplicity.
 
 <br />
 
